@@ -1,0 +1,52 @@
+{
+  "name": "dico-mongodb",
+  "version": "0.0.1",
+  "description": "A wrapper to use mongodb with dico.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jshint .;mocha --reporter list;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/guilro/dico-mongodb"
+  },
+  "keywords": [
+    "service",
+    "configuration",
+    "depencency",
+    "injection",
+    "injector",
+    "mongodb",
+    "database"
+  ],
+  "author": "Guillaume Royer <guilro@redado.org> (http://guilro.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guilro/dico-mongodb/issues"
+  },
+  "homepage": "https://github.com/guilro/dico-mongodb",
+  "dependencies": {
+    "mongodb": "~1.3"
+  },
+  "devDependencies": {
+    "mocha": "1.16.*",
+    "jshint": "2.4.*",
+    "dico": "0.0.*"
+  },
+  "jshintConfig": {
+    "globalstrict": "true",
+    "globals": {
+      "require": false,
+      "module": false,
+      "console": false,
+      "__dirname": false,
+      "process": false,
+      "exports": false,
+      "describe": false,
+      "it": false
+    },
+    "camelcase": true,
+    "indent": 2,
+    "quotmark": "single"
+  }
+}
